@@ -7,7 +7,7 @@ export default {
         primary_blue: "#3781E3",
         secondary_blue: "#488FDD",
         primary_text: "#00214D",
-        bg_deep: "#AECEF4",
+        bg_lightest: "#E9F4FF",
         bg_light: "#D5E5F5",
         accent_blue: "#75A4DA",
       },

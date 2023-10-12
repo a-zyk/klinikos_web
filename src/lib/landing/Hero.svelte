@@ -8,7 +8,7 @@
   import Button from "../assets/Button.svelte";
 </script>
 
-<div class="bg-bg_light w-full">
+<div class="bg-bg_light w-full ">
   <LayoutContainer>
     <ContentContainer>
       <div class="flex relative">
@@ -22,7 +22,7 @@
           <div class="font-jakarta py-3 text-3xl md:text-4xl lg:text-7xl font-bold text-center md:text-start">
             Jūsų augintinių draugai
           </div>
-          <div class="flex flex-col font-medium gap-7 py-5 md:py-10">
+          <div class="flex flex-col self-center md:self-start font-medium gap-7 py-5 md:py-10">
             <HeroItemWrapper>
               <Phone classes="h-10 w-10" />
               <div class="font-semibold">+370 3489593</div>
@@ -47,7 +47,7 @@
               </HeroItemWrapper>
             </div>
           </div>
-          <div class="self-center md:self-auto lg:self-center">
+          <div class="self-center md:self-auto lg:self-center my-3">
             <Button>Regsitracija vizitui</Button>
           </div>
         </div>

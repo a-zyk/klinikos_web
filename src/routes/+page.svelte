@@ -1,5 +1,6 @@
 <script>
-  import { Hero } from "$lib";
+  import { Hero, Services} from "$lib";
 </script>
 
 <Hero />
+<Services/>
