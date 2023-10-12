@@ -73,8 +73,8 @@
           {/each}
         </div>
       </div>
-      <div class="max-w-[1100px] flex items-center justify-start md:justify-end mt-8 gap-1 cursor-pointer">
-        <div class="opacity-70 text-sm md:font-md">Daugiau apie atliekamas procedūras</div>
+      <div class="max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2  cursor-pointer">
+        <div class="font-base text-sm md:font-md text-primary_blue ">Daugiau apie atliekamas procedūras</div>
         <Arrow />
       </div>
     </ContentContainer>
