@@ -52,7 +52,7 @@
 <div class="bg-bg_lightest w-full">
   <LayoutContainer>
     <ContentContainer>
-      <div class="flex flex-col items-center gap-6">
+      <div class="flex flex-col items-center gap-7">
         <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold font-jakarta">
           Paslaugos
         </h2>

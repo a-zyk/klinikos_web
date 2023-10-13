@@ -1,3 +1,3 @@
-<div class="px-8 py-5">
+<div class="px-8 py-5 ">
   <slot />
 </div>

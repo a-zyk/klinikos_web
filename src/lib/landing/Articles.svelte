@@ -5,10 +5,10 @@ import Carousel from "./Carousel.svelte";
   import { Arrow } from "$lib/assets";
 </script>
 
-<div class="bg-bg_lightest w-full">
+<div class="bg-bg_lightest w-full overflow-hidden">
   <LayoutContainer>
     <ContentContainer>
-      <div class="flex flex-col items-center gap-6">
+      <div class="flex flex-col items-center gap-7">
         <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold font-jakarta">
           Naudinga informacija
         </h2>
@@ -17,7 +17,7 @@ import Carousel from "./Carousel.svelte";
           apsinuodijimų temomis
         </div>
       </div>
-      <div >
+      <div class="pt-10">
 
         <Carousel/>
       </div>
@@ -32,3 +32,4 @@ import Carousel from "./Carousel.svelte";
     </ContentContainer>
   </LayoutContainer>
 </div>
+

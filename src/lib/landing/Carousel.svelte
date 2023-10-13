@@ -32,13 +32,14 @@
     arrows={false}
     swiping={true}
   >
-    <div><CarouselItem /></div>
-    <div><CarouselItem /></div>
-    <div><CarouselItem /></div>
-    <div><CarouselItem /></div>
-    <div><CarouselItem /></div>
-    <div><CarouselItem /></div>
+    <div class="px-2"><CarouselItem /></div>
+    <div class="px-2"><CarouselItem /></div>
+    <div class="px-2"><CarouselItem /></div>
+    <div class="px-2"><CarouselItem /></div>
+    <div class="px-2"><CarouselItem /></div>
+    <div class="px-2"><CarouselItem /></div>
   </Carousel>
   <!--   
   <button on:click={handleNextClick}>Next</button> -->
 {/if}
+
