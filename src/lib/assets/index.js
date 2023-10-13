@@ -7,6 +7,8 @@ import Wave from "./Wave.svelte"
 import Virus from "./Virus.svelte"
 import Paw from "./Paw.svelte"
 import Arrow from "./Arrow.svelte"
+import ArrowWhite from "./ArrowWhite.svelte"
+
 export {
     Stethoscope,
     Tooth,
@@ -16,5 +18,6 @@ export {
     Wave,
     Virus,
     Paw,
-    Arrow
+    Arrow,
+    ArrowWhite,
 }

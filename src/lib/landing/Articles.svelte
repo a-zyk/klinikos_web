@@ -1,7 +1,7 @@
 <script>
   import ContentContainer from "../layout/ContentContainer.svelte";
   import LayoutContainer from "../layout/LayoutContainer.svelte";
-
+import Carousel from "./Carousel.svelte";
   import { Arrow } from "$lib/assets";
 </script>
 
@@ -16,6 +16,10 @@
           Kviečiame susipažinti su naudinga informacija gyvūnų auginimo, ligų,
           apsinuodijimų temomis
         </div>
+      </div>
+      <div >
+
+        <Carousel/>
       </div>
       <div
         class=" max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 cursor-pointer"
