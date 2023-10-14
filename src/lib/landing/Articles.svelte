@@ -17,7 +17,7 @@ import Carousel from "./Carousel.svelte";
           apsinuodijimų temomis
         </div>
       </div>
-      <div class="pt-10">
+      <div class="pt-10 flex items-center self-center justify-center">
 
         <Carousel/>
       </div>

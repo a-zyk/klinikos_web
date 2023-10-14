@@ -1,6 +1,4 @@
 <script>
-  import { slide } from "svelte/transition";
-  import Arrow from "../assets/Arrow.svelte";
   export let title = "";
   export let description = "";
   export let icon;
@@ -17,8 +15,4 @@
       {description}
     </p>
   </div>
-  <!-- <div class="flex gap-2 hover:gap-4 justify-end items-center">
-    <div class="text-sm">Plačiau</div>
-    <Arrow />
-  </div> -->
 </div>

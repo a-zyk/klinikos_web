@@ -8,16 +8,16 @@
   import Button from "../assets/Button.svelte";
 </script>
 
-<div class="bg-bg_light w-full ">
+<div class="bg-bg_light w-full">
   <LayoutContainer>
     <ContentContainer>
-      <div class="flex relative">
+      <div class="flex relative ">
         <div class="flex flex-col  z-20">
-          <div class="flex items-center gap-2 font-jakarta font-semibold">
+          <div class="flex my-1 items-center gap-2 font-jakarta font-semibold">
             <div
-              class="w-[100px] opacity-60 border-b-4 border-b-primary_text rounded-md"
+              class="w-[50px] md:w-[100px] opacity-60 border-b-4 border-b-primary_text rounded-md"
             />
-            <h1 class="opacity-60 text-sm md:text-lg">Baltijos veterinarijos klinika</h1>
+            <h1 class="md:opacity-60 text-lg md:text-lg">Baltijos veterinarijos klinika</h1>
           </div>
           <div class="font-jakarta py-3 text-3xl md:text-4xl lg:text-7xl font-bold text-center md:text-start">
             Jūsų augintinių draugai
@@ -47,15 +47,15 @@
               </HeroItemWrapper>
             </div>
           </div>
-          <div class="self-center md:self-auto lg:self-center my-3">
-            <Button>Regsitracija vizitui</Button>
+          <div class="self-center md:self-auto lg:self-center my-6">
+            <Button>Registracija vizitui</Button>
           </div>
         </div>
         <div class="flex-grow" />
-        <div class="hidden md:block h-auto w-[450px] absolute bottom-0 md:-right-12 lg:right-0 z-10">
+        <div class="hidden md:block h-auto w-[450px] absolute bottom-0 md:-right-10 lg:right-0 z-10">
           <img class="h-full" alt="puppy" src="/hero_dog.png" />
         </div>
-        <div class="md:hidden h-auto w-[450px] absolute bottom-0 right-28 lg:right-0 z-10">
+        <div class="md:hidden opacity-60 h-auto w-[450px] absolute bottom-0 right-24 lg:right-0 z-10">
           <img class="h-full" alt="puppy" src="/hero_dog.png" />
         </div>
       </div>

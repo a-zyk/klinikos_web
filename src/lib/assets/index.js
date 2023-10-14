@@ -8,6 +8,8 @@ import Virus from "./Virus.svelte"
 import Paw from "./Paw.svelte"
 import Arrow from "./Arrow.svelte"
 import ArrowWhite from "./ArrowWhite.svelte"
+import LtFlag from "./LtFlag.svelte"
+import EnFlag from "./EnFlag.svelte"
 
 export {
     Stethoscope,
@@ -20,4 +22,6 @@ export {
     Paw,
     Arrow,
     ArrowWhite,
+    LtFlag,
+    EnFlag
 }
