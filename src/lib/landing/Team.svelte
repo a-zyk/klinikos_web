@@ -20,9 +20,9 @@
       <div
         class=" max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 cursor-pointer"
       >
-        <div class="font-base text-sm md:font-md text-primary_blue">
+        <a href="/komanda" class="font-base text-sm md:font-md text-primary_blue">
           Plačiau apie komandą
-        </div>
+        </a>
         <Arrow />
       </div>
     </ContentContainer>

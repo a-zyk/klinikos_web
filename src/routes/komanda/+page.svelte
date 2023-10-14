@@ -13,10 +13,10 @@
           Komanda
         </h1>
         <div class="text-center">
-          Susipažinkite su Baltijos klinikoje dirbančiais specialistais
+          Susipažinkite su Baltijos veterinarijos klinikoje dirbančiais specialistais
         </div>
       </div>
-      <div class="w-full flex flex-col gap-3">
+      <div class="w-full flex flex-col gap-10 mt-10">
         {#each data as doctor}
           <TeamCard
             name={doctor.name}

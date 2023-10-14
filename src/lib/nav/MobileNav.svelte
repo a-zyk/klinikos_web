@@ -28,7 +28,9 @@
 {/if}
 
 <div class="flex w-full px-8 py-4">
-  <img src="/small_logo.png" alt="small logo" />
+  <a href="/">
+    <img src="/small_logo.png" alt="small logo" />
+  </a>
   <div class="flex-grow" />
   <button class="cursor-pointer" on:click={() => (isNavShown = true)}
     ><Bars /></button
