@@ -5,7 +5,7 @@ import Carousel from "./Carousel.svelte";
   import { Arrow } from "$lib/assets";
 </script>
 
-<div class="bg-bg_lightest w-full overflow-hidden">
+<div class="bg-bg_lightest w-full flex flex-col items-center overflow-hidden">
   <LayoutContainer>
     <ContentContainer>
       <div class="flex flex-col items-center gap-7">

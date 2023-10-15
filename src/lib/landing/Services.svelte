@@ -32,6 +32,7 @@
     },
     {
       title: "Labaratoriniai tyrimai",
+      id: "Labaratoriniai-tyrimai",
       description: "Atliekame platų spektrą labaratorinių tyrimų",
       icon: Virus,
     },
@@ -66,6 +67,7 @@
         >
           {#each procedures as procedure}
             <Card
+            id={procedure.id}
               title={procedure.title}
               description={procedure.description}
               icon={procedure.icon}

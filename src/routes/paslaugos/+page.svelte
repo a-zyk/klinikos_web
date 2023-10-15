@@ -27,7 +27,8 @@
       ],
     },
     {
-      title: "Labaratorinė diagnostika",
+      title: "Labaratoriai tyrimai",
+      id: "Labaratoriniai-tyrimai",
       icon: Syringe,
       services: [
         {
@@ -64,9 +65,10 @@
         </div>
       </div>
       <div class="flex justify-center ">
-        <div class="lg:w-[900px] flex flex-col gap-10 mt-10">
+        <div class="w-[900px] flex flex-col gap-10 mt-10">
         {#each data as procedure}
           <ServicesItem
+          id={procedure.id}
             title={procedure.title}
             icon={procedure.icon}
             procedures={procedure.services}

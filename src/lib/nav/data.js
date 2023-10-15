@@ -3,5 +3,5 @@ export default [
     {name: "Paslaugos", link:"/paslaugos"},
     {name: "Komanda", link:"/komanda"},
     {name: "Straipsniai", link:"/straipsniai"},
-    {name: "Kontaktai", link:"/"},
+    {name: "Kontaktai", link:"/kontaktai"},
 ]

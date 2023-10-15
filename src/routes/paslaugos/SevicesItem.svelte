@@ -14,7 +14,7 @@
       <svelte:component this={icon} />
     </div>
     {#each procedures as procedure}
-      <div class="flex border-b-2 p-2 text-sm lg:text-base opacity-80">
+      <div id={procedure.title} class="flex border-b-2 p-2 text-sm lg:text-base opacity-80">
         <div class="">
           {procedure.title}
         </div>
