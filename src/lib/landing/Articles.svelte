@@ -5,7 +5,7 @@
   import { Arrow } from "$lib/assets";
 
   const getArticles = async () => {
-    let res = await fetch.("https://klinika.fleetkick.com/items/Articles")
+    let res = await fetch("https://klinika.fleetkick.com/items/Articles")
   }
 </script>
 
