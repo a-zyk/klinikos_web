@@ -17,14 +17,18 @@
           srityse. Esame pasiruoše padėti jūsų augintiniui būti sveikesniam.
         </div>
       </div>
-      <div
+      <a
+        href="/komanda"
         class=" max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 cursor-pointer"
       >
-        <a href="/komanda" class="font-base text-sm md:font-md text-primary_blue">
+        <a
+          href="/komanda"
+          class="font-base text-sm md:font-md text-primary_blue"
+        >
           Plačiau apie komandą
         </a>
         <Arrow />
-      </div>
+      </a>
     </ContentContainer>
   </LayoutContainer>
 </div>

@@ -6,6 +6,7 @@
   const data = [
     {
       title: "Chirurgija",
+      id: "chirurgija",
       icon: Syringe,
       services: [
         {
@@ -28,7 +29,7 @@
     },
     {
       title: "Labaratoriai tyrimai",
-      id: "Labaratoriniai-tyrimai",
+      id: "labaratoriniai-tyrimai",
       icon: Syringe,
       services: [
         {
@@ -50,6 +51,8 @@
       ],
     },
   ];
+
+
 </script>
 
 <div class="bg-bg_lightest w-full">
@@ -67,7 +70,9 @@
       <div class="flex justify-center ">
         <div class="w-[900px] flex flex-col gap-10 mt-10">
         {#each data as procedure}
+     
           <ServicesItem
+        
           id={procedure.id}
             title={procedure.title}
             icon={procedure.icon}

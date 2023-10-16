@@ -6,7 +6,7 @@
 </script>
 
 <a
-href="/paslaugos#{id}"
+  href="/paslaugos#{id}"
   class=" hover:translate-y-2 flex flex-col p-6 md:p-8 w-[250px] h-[250px] md:w-[300px] md:h-[300px] bg-white rounded-lg cursor-pointer"
 >
   <svelte:component this={icon} />

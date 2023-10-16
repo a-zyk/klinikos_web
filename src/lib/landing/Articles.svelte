@@ -1,7 +1,7 @@
 <script>
   import ContentContainer from "../layout/ContentContainer.svelte";
   import LayoutContainer from "../layout/LayoutContainer.svelte";
-import Carousel from "./Carousel.svelte";
+  import Carousel from "./Carousel.svelte";
   import { Arrow } from "$lib/assets";
 </script>
 
@@ -18,18 +18,17 @@ import Carousel from "./Carousel.svelte";
         </div>
       </div>
       <div class="pt-10 flex items-center self-center justify-center">
-
-        <Carousel/>
+        <Carousel />
       </div>
-      <div
+      <a
+        href="/straipsniai"
         class=" max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 cursor-pointer"
       >
         <div class="font-base text-sm md:font-md text-primary_blue">
           Daugiau straipsnių
         </div>
         <Arrow />
-      </div>
+      </a>
     </ContentContainer>
   </LayoutContainer>
 </div>
-

@@ -67,7 +67,7 @@
         >
           {#each procedures as procedure}
             <Card
-            id={procedure.id}
+              id={procedure.id}
               title={procedure.title}
               description={procedure.description}
               icon={procedure.icon}
@@ -75,10 +75,15 @@
           {/each}
         </div>
       </div>
-      <div class="max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2  cursor-pointer">
-        <div class="font-base text-sm md:font-md text-primary_blue ">Daugiau apie atliekamas procedūras</div>
+      <a
+        href="/paslaugos"
+        class="max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 cursor-pointer"
+      >
+        <div class="font-base text-sm md:font-md text-primary_blue">
+          Daugiau apie atliekamas procedūras
+        </div>
         <Arrow />
-      </div>
+      </a>
     </ContentContainer>
   </LayoutContainer>
 </div>

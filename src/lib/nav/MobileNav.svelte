@@ -5,6 +5,7 @@
   import Close from "../assets/Close.svelte";
 
   let isNavShown = false;
+  
 </script>
 
 {#if isNavShown}
@@ -17,7 +18,7 @@
     >
     <ul class="flex flex-col items-end py-16 leading-[86px] text-xl font-light">
       {#each data as item}
-        <li>
+        <li  >
           <a on:click={() => (isNavShown = false)} href={item.link}
             >{item.name}</a
           >
