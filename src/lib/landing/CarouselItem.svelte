@@ -9,11 +9,11 @@
   </a>
   <div class="p-5">
     <a href="/">
-      <h5 class="mb-2 text-2xl font-bold tracking-tight">
+      <h5 class="mb-5 text-2xl font-bold tracking-tight">
         6 patarimai kaip išlaikyti augintinį sveika rudenį
       </h5>
     </a>
-    <p class="mb-3 font-normal">
+    <p class="mb-7 font-normal">
       Rudens sezonas atneša ne tik spalvingus lapus, bet ir vis dar aktyvias
       erkes bei kitus pavojus!
     </p>

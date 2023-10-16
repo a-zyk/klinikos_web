@@ -1,6 +1,7 @@
 <script>
-  import LayoutContainer from "../../lib/layout/LayoutContainer.svelte";
-  import ContentContainer from "../../lib/layout/ContentContainer.svelte";
+  import LayoutContainer from "$lib/layout/LayoutContainer.svelte";
+  import ContentContainer from "$lib/layout/ContentContainer.svelte";
+  import Seo from "$lib/assets/Seo.svelte";
 </script>
 
 <div class="bg-bg_lightest w-full">
@@ -40,3 +41,5 @@
     </ContentContainer>
   </LayoutContainer>
 </div>
+
+<Seo title="Kontaktai | Baltijos veterinarijos klinika" description="Baltijos klinika jusu augintiniu draugai" url="urlaskazkos" keywords="paslaugos, vet klinika"/>

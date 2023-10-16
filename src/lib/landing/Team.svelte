@@ -13,7 +13,7 @@
           Susipažinkime
         </h2>
         <div class="text-center">
-          Klinikoje dirba veterinarijos gydytojai besispecelizuojantys įvairiose
+          Klinikoje dirba veterinarijos gydytojai besispecializuojantys įvairiose
           srityse. Esame pasiruoše padėti jūsų augintiniui būti sveikesniam.
         </div>
       </div>

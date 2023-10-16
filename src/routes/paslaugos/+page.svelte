@@ -1,7 +1,8 @@
 <script>
-  import LayoutContainer from "../../lib/layout/LayoutContainer.svelte";
-  import ContentContainer from "../../lib/layout/ContentContainer.svelte";
+  import LayoutContainer from "$lib/layout/LayoutContainer.svelte";
+  import ContentContainer from "$lib/layout/ContentContainer.svelte";
   import ServicesItem from "./SevicesItem.svelte";
+  import Seo from "$lib/assets/Seo.svelte";
   import { Syringe } from "$lib/assets";
   const data = [
     {
@@ -84,3 +85,5 @@
     </ContentContainer>
   </LayoutContainer>
 </div>
+
+<Seo title="Paslaugos | Baltijos veterinarijos klinika" description="Teikiame platų spektrą paslaugų" url="urlaskazkos" keywords="paslaugos, vet klinika"/>
