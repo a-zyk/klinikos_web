@@ -3,7 +3,13 @@
   import LayoutContainer from "../layout/LayoutContainer.svelte";
   import Carousel from "./Carousel.svelte";
   import { Arrow } from "$lib/assets";
+
+  const getArticles = async () => {
+    let res = await fetch.("https://klinika.fleetkick.com/items/Articles")
+  }
 </script>
+
+
 
 <div class="bg-bg_lightest w-full flex flex-col items-center overflow-hidden">
   <LayoutContainer>
