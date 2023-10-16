@@ -7,7 +7,7 @@
 <div class="bg-bg_lightest w-full">
   <LayoutContainer>
     <ContentContainer>
-      <div class="flex flex-col items-center gap-7">
+      <div class="flex flex-col items-center gap-10">
         <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold font-jakarta">
           Straipsniai
         </h1>
@@ -16,7 +16,7 @@
           apsinuodijimų temomis
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-10">
         <CarouselItem />
         <CarouselItem />
         <CarouselItem />
