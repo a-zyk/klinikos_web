@@ -4,9 +4,8 @@
   import Carousel from "./Carousel.svelte";
   import { Arrow } from "$lib/assets";
 
-  const getArticles = async () => {
-    let res = await fetch("https://klinika.fleetkick.com/items/Articles")
-  }
+
+
 </script>
 
 
@@ -24,7 +23,7 @@
         </div>
       </div>
       <div class="pt-10 flex items-center self-center justify-center">
-        <Carousel />
+        <Carousel  />
       </div>
       <a
         href="/straipsniai"

@@ -1,6 +1,7 @@
 <script>
   import { Hero, Services, Team, Articles} from "$lib";
   import Seo from "$lib/assets/Seo.svelte";
+  export let data;
 </script>
 
 <Hero />
