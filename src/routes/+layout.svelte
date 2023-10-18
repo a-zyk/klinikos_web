@@ -1,12 +1,10 @@
 <script>
   import "../app.css";
-  import { Nav, Footer } from "$lib";
+  import { Nav, Footer, cookieConfig } from "$lib";
 
   import "@beyonk/gdpr-cookie-consent-banner/banner.css"; // optional, you can also define your own styles
   import GdprBanner from "@beyonk/gdpr-cookie-consent-banner";
 
-  import cookieConfig from '$lib/cookieConfig'
-  
   function initAnalytics() {
     // do something with segment.io or google analytics etc
   }
