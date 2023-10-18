@@ -3,6 +3,8 @@
   import ContentContainer from "$lib/layout/ContentContainer.svelte";
   import CarouselItem from "$lib/landing/CarouselItem.svelte";
   import Seo from "$lib/assets/Seo.svelte";
+
+export let data;
 </script>
 
 <div class="bg-bg_lightest w-full">
@@ -18,14 +20,16 @@
         </div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-10">
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
+        {#each data.data as article}
+        <div key={article.title} class="px-2">
+          <CarouselItem
+            title={article.title}
+            description={article.description}
+            image={article.smallImage}
+            slug={article.slug}
+          />
+        </div>
+      {/each}
       </div>
     </ContentContainer>
   </LayoutContainer>

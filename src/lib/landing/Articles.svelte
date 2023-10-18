@@ -4,11 +4,7 @@
   import Carousel from "./Carousel.svelte";
   import { Arrow } from "$lib/assets";
 
-
-
 </script>
-
-
 
 <div class="bg-bg_lightest w-full flex flex-col items-center overflow-hidden">
   <LayoutContainer>
@@ -23,7 +19,7 @@
         </div>
       </div>
       <div class="pt-10 flex items-center self-center justify-center">
-        <Carousel  />
+        <Carousel />
       </div>
       <a
         href="/straipsniai"

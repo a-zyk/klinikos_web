@@ -2,10 +2,11 @@
   import { browser } from "$app/environment";
   import Carousel from "svelte-carousel";
   import CarouselItem from "./CarouselItem.svelte";
-  let carousel; // for calling methods of the carousel instance
-  const handleNextClick = () => {
-    carousel.goToNext();
-  };
+
+  import { getContext } from "svelte";
+  const articles = getContext("articles");
+  
+  let carousel; 
 
   const getParticleCount = (width) => {
     if (width > 1024) {
@@ -24,7 +25,7 @@
 
 <svelte:window bind:innerWidth />
 
-{#if browser}
+{#if browser  }
   <Carousel
     bind:this={carousel}
     particlesToShow={particleCount}
@@ -32,13 +33,15 @@
     arrows={false}
     swiping={true}
   >
-    <div class="px-2"><CarouselItem /></div>
-    <div class="px-2"><CarouselItem /></div>
-    <div class="px-2"><CarouselItem /></div>
-    <div class="px-2"><CarouselItem /></div>
-    <div class="px-2"><CarouselItem /></div>
-    <div class="px-2"><CarouselItem /></div>
+    {#each $articles as article}
+      <div key={article.title} class="px-2">
+        <CarouselItem
+          title={article.title}
+          description={article.description}
+          image={article.smallImage}
+          slug={article.slug}
+        />
+      </div>
+    {/each}
   </Carousel>
-  <!--   
-  <button on:click={handleNextClick}>Next</button> -->
 {/if}
