@@ -20,10 +20,10 @@ const cookieConfig = {
      *
      * For web components, pass a JSON string: `cookie-config='{ "domain": "example.com", "path": "/" }'`
      **/
-    cookieConfig: {
-      domain: "baltijosveterinarijosklinika.lt",
-      path: "/",
-    },
+    // cookieConfig: {
+    //   domain: "baltijosveterinarijosklinika.lt",
+    //   path: "/",
+    // },
 
     /**
      * These are the top two lines of text on the banner
