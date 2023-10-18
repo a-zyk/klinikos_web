@@ -10,7 +10,7 @@
   }
 </script>
 
-<GdprBanner class="bg-slate-300" {...cookieConfig} on:analytics={initAnalytics} />
+<GdprBanner cookieName="baltijos_veterinarijos_klinika_privacy" {...cookieConfig} on:analytics={initAnalytics} />
 
 <div class="flex flex-col min-h-screen">
   <Nav />

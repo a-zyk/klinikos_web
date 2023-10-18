@@ -78,7 +78,7 @@ const cookieConfig = {
     /**
      * Show an icon to edit cookies later, when banner is closed.
      **/
-    showEditIcon: true,
+    showEditIcon: false,
   };
 
 export default cookieConfig
