@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.sc-carousel__pages-container > div {
-    /* width: fit-content !important;
-min-width: 1/3 !important;
-max-width: fit-content !important; */
-}

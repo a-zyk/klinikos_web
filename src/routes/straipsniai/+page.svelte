@@ -35,4 +35,4 @@ export let data;
   </LayoutContainer>
 </div>
 
-<Seo title="Naujienos | Baltijos veterinarijos klinika" description="Baltijos klinika jusu augintiniu draugai" url="urlaskazkos" keywords="paslaugos, vet klinika"/>
+<Seo title="Naujienos | Baltijos veterinarijos klinika" description="Naujienos ir patarimai kaip auginti sveiką ir laimingą augintinį."  url={`/straipsniai`} keywords="veterinarija, vet klinika, naujienos, straipsniai, gyvūnų ligos, gyvūnų gydymas"/>

@@ -42,4 +42,4 @@
   </LayoutContainer>
 </div>
 
-<Seo title="Kontaktai | Baltijos veterinarijos klinika" description="Baltijos klinika jusu augintiniu draugai" url="urlaskazkos" keywords="paslaugos, vet klinika"/>
+<Seo title="Kontaktai | Baltijos veterinarijos klinika" description="Baltijos klinika jusu augintiniu draugai" url={`/kontaktai`} keywords="baltijos veterinarijos klinika, uzubaliai, avizieniai, veterinarijos klinika"/>

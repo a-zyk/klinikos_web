@@ -73,8 +73,6 @@
         {#each data as procedure}
      
           <ServicesItem
-        
-          id={procedure.id}
             title={procedure.title}
             icon={procedure.icon}
             procedures={procedure.services}
@@ -86,4 +84,4 @@
   </LayoutContainer>
 </div>
 
-<Seo title="Paslaugos | Baltijos veterinarijos klinika" description="Teikiame platų spektrą paslaugų" url="urlaskazkos" keywords="paslaugos, vet klinika"/>
+<Seo title="Paslaugos | Baltijos veterinarijos klinika" description="Teikiame platų spektrą veterinarijos paslaugų" url={`/paslaugos`} keywords="veterinarijos paslaugos, vet klinika, kastracija, sterilizacija"/>

@@ -37,5 +37,5 @@
   title={data.title}
   description={data.description}
   url={`/straipsniai/${data.slug}`}
-  keywords="paslaugos, vet klinika"
+  keywords={data.keywords}
 />

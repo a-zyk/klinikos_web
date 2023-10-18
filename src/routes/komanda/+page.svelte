@@ -34,4 +34,4 @@
   </LayoutContainer>
 </div>
 
-<Seo title="Komanda | Baltijos veterinarijos klinika" description="Teikiame platų spektrą paslaugų" url="urlaskazkos" keywords="paslaugos, vet klinika"/>
+<Seo title="Komanda | Baltijos veterinarijos klinika" description="Teikiame platų spektrą paslaugų" url={`/komanda`} keywords="veterinarijos gydytojas, veterinarijos klinika, uzubaliai, avizieniai"/>

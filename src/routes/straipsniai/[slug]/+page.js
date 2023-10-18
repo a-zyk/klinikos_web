@@ -6,7 +6,6 @@ export async function load({ params }) {
   );
   const data = await res.json();
   if (data.data) {
-    console.log(data)
     return data.data;
   }
   throw error(404, "Straipsnis nerastas");
