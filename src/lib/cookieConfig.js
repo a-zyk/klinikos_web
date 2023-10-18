@@ -2,7 +2,7 @@ const cookieConfig = {
     /**
      * You must set the cookie name.
      **/
-    cookieName: "baltijos_veterinarijos_klinika_privacy",
+    cookieName: "bvk_priv",
 
     /**
      * Whether to display the banner to the user or not. This can be because you're in an iframe
