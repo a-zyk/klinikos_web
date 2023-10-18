@@ -3,7 +3,8 @@
   import ContentContainer from "$lib/layout/ContentContainer.svelte";
   import Seo from "$lib/assets/Seo.svelte";
   import DOMPurify from "isomorphic-dompurify";
-
+  import WhiteButton from "$lib/assets/WhiteButton.svelte";
+  import Arrow from "$lib/assets/Arrow.svelte";
   export let data;
 
   const cleanSmallContent = DOMPurify.sanitize(data.smallContent);
@@ -12,7 +13,7 @@
 <div class="bg-bg_lightest w-full">
   <LayoutContainer>
     <ContentContainer>
-      <div class="w-full flex items-center justify-center">
+      <div class="w-full flex flex-col items-center justify-center">
         <div class="flex flex-col gap-10 max-w-[900px]">
           <div class="h-auto w-auto">
             <img
@@ -28,6 +29,12 @@
             {@html cleanSmallContent}
           </div>
         </div>
+
+        <WhiteButton href="/kontaktai">
+          <div class="flex gap-2 items-center">
+            Registruotis vizitui <Arrow />
+          </div></WhiteButton
+        >
       </div>
     </ContentContainer>
   </LayoutContainer>
