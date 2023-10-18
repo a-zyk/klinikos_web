@@ -5,8 +5,8 @@
 
   import { getContext } from "svelte";
   const articles = getContext("articles");
-  
-  let carousel; 
+
+  let carousel;
 
   const getParticleCount = (width) => {
     if (width > 1024) {
@@ -25,7 +25,7 @@
 
 <svelte:window bind:innerWidth />
 
-{#if browser  }
+{#if browser}
   <Carousel
     bind:this={carousel}
     particlesToShow={particleCount}
@@ -33,7 +33,7 @@
     arrows={false}
     swiping={true}
   >
-    {#each $articles as article}
+    {#each $articles.slice(0, 6) as article}
       <div key={article.title} class="px-2">
         <CarouselItem
           title={article.title}

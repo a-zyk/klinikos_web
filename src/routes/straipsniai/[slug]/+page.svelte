@@ -2,7 +2,7 @@
   import LayoutContainer from "$lib/layout/LayoutContainer.svelte";
   import ContentContainer from "$lib/layout/ContentContainer.svelte";
   import Seo from "$lib/assets/Seo.svelte";
-  import DOMPurify from 'isomorphic-dompurify';
+  import DOMPurify from "isomorphic-dompurify";
 
   export let data;
 
@@ -13,18 +13,18 @@
   <LayoutContainer>
     <ContentContainer>
       <div class="w-full flex items-center justify-center">
-        <div class="flex flex-col items-center gap-10 max-w-[900px]">
+        <div class="flex flex-col gap-10 max-w-[900px]">
           <div class="h-auto w-auto">
             <img
               class="w-full h-full"
               alt="straipsnio turini ilsiutruojanti nuotrauka"
-              src="/cat_large.jpg"
+              src="https://klinika.fleetkick.com/assets/{data.largeImage}"
             />
           </div>
           <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold font-jakarta">
             {data.title}
           </h1>
-          <div class="prose">
+          <div class="prose max-w-full">
             {@html cleanSmallContent}
           </div>
         </div>

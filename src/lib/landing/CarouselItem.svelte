@@ -17,7 +17,7 @@
   <a href="/">
     <img
       class="rounded-t-lg"
-      src="https://klinika.fleetkick.com/assets/{image}"
+      src="https://klinika.fleetkick.com/assets/{image}?width=450&height=470"
       alt="cat"
     />
   </a>
