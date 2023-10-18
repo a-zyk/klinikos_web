@@ -2,8 +2,11 @@
   import LayoutContainer from "$lib/layout/LayoutContainer.svelte";
   import ContentContainer from "$lib/layout/ContentContainer.svelte";
   import Seo from "$lib/assets/Seo.svelte";
+  import DOMPurify from 'isomorphic-dompurify';
 
   export let data;
+
+  const cleanSmallContent = DOMPurify.sanitize(data.smallContent);
 </script>
 
 <div class="bg-bg_lightest w-full">
@@ -22,7 +25,7 @@
             {data.title}
           </h1>
           <div class="prose">
-            {@html data.smallContent}
+            {@html cleanSmallContent}
           </div>
         </div>
       </div>

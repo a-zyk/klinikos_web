@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"isomorphic-dompurify": "^1.9.0",
 		"svelte-carousel": "^1.0.25"
 	}
 }
