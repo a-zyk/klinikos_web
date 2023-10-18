@@ -53,10 +53,10 @@
         </div>
         <div class="flex-grow" />
         <div class="hidden md:flex flex-col h-auto w-[450px] absolute bottom-0 md:-right-10 lg:right-0 z-10">
-          <img class="h-full" alt="puppy" src="/hero_dog.png" />
+          <img class="h-full" alt="puppy" src="/hero_dog.webp" />
         </div>
         <div class="md:hidden flex flex-col opacity-60 h-auto w-[450px] absolute bottom-0 right-24 lg:right-0 z-10">
-          <img class="h-full" alt="puppy" src="/hero_dog.png" />
+          <img class="h-full" alt="puppy" src="/hero_dog.webp" />
         </div>
       </div>
     </ContentContainer>
