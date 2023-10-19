@@ -13,15 +13,15 @@
   };
 </script>
 
-<div class="max-w-sm h-auto bg-white border border-gray-200 rounded-lg shadow">
-  <a href="/">
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+  <a href="/straipsniai/{slug}">
     <img
       class="rounded-t-lg"
       src="https://klinika.fleetkick.com/assets/{image}?width=450&height=470"
       alt="cat"
     />
   </a>
-  <div class="p-5">
+  <div class="p-5 min-h-[300px]  flex flex-col">
     <a href="/">
       <h5 class="mb-5 text-2xl font-bold tracking-tight">
         {title}
@@ -30,6 +30,7 @@
     <p class="mb-7 font-normal">
       {description}
     </p>
+    <div class="flex-grow"/>
     <WhiteButton href="/straipsniai/{slug}">
       <div
         on:click={() => trackArticle(slug)}
