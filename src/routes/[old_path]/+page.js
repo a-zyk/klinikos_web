@@ -19,7 +19,7 @@ const REDIRECTS = {
   ["egzema.html"]: "/straipsniai",
   ["augintini371-dehelmintizacija.html"]: "/",
   ["kontaktai-182681.html"]: "/kontaktai",
-  ["privatumopolitika.html"]: "/",
+  ["privatumopolitika.html"]: "/privatumo-politika",
   ["registracija.html"]: "/kontaktai",
 };
 

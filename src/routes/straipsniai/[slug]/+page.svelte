@@ -13,7 +13,7 @@
 <div class="bg-bg_lightest w-full">
   <LayoutContainer>
     <ContentContainer>
-      <div class="w-full flex flex-col items-center justify-center">
+      <div class="w-full flex flex-col gap-4 items-center justify-center">
         <div class="flex flex-col gap-10 max-w-[900px]">
           <div class="h-auto w-auto">
             <img

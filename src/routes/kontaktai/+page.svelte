@@ -17,29 +17,45 @@
           Registracija vizitui būtina.
         </div>
       </div>
-      <div class="flex flex-col-reverse md:flex-row items-center justify-center mt-10 gap-10 md:gap-20 lg:gap-30">
-        <div class="h-[300px] w-full md:h-[500px] md:w-full relative rounded-lg overflow-hidden">
+      <div
+        class="flex flex-col-reverse md:flex-row items-center justify-center mt-10 gap-10 md:gap-20 lg:gap-30"
+      >
+        <div
+          class="h-[300px] w-full md:h-[400px] md:w-[500px] relative rounded-lg overflow-hidden"
+        >
           <img
             class="absolute top-0 lg:-top-[50%] left-0 rounded-lg w-full"
             src="./map.png"
             alt="map"
           />
         </div>
-        <div class="flex flex-col justify-center gap-8 text-2xl lg:text-3xl">
-          <div class="font-semibold ">+370 3489593</div>
+        <div class="flex flex-col justify-center gap-8 text-xl lg:text-3xl">
+          <div class="font-semibold">+370 3489593</div>
+          <div>baltijosklinika@gmail.com</div>
           <div class="flex flex-col">
-            <div>I - V 10 - 20 val.</div>
-            <div>VI 10 - 18 val.</div>
-            <div>VII nedirbame</div>
-          </div>
-          <div class="flex flex-col">
-            <div>Senasis Ukmergės k. 39A</div>
-            <div>Užubaliai, Vilniaus r.</div>
+            <div class="flex gap-2 wrap-0 ">
+              <div class="whitespace-nowrap">I - V</div>
+              <div class="whitespace-nowrap">10 - 20 val.</div>
+            </div>
+            <div class="flex gap-2 ">
+              <div>VI</div>
+              <div>10 - 18 val.</div>
+            </div>
+            <div class="flex gap-2">
+              <div>VII</div>
+              <div>nedirbame</div>
+            </div>
           </div>
         </div>
+        
       </div>
     </ContentContainer>
   </LayoutContainer>
 </div>
 
-<Seo title="Kontaktai | Baltijos veterinarijos klinika" description="Baltijos klinika jusu augintiniu draugai" url={`/kontaktai`} keywords="baltijos veterinarijos klinika, uzubaliai, avizieniai, veterinarijos klinika"/>
+<Seo
+  title="Kontaktai | Baltijos veterinarijos klinika"
+  description="Baltijos klinika jusu augintiniu draugai"
+  url={`/kontaktai`}
+  keywords="baltijos veterinarijos klinika, uzubaliai, avizieniai, veterinarijos klinika"
+/>

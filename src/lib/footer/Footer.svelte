@@ -31,8 +31,17 @@
     </FooterItemWrapper>
   </div>
   <div class="flex flex-col items-center justify-center mt-8">
-    <div class="flex gap-5 my-5"><FacebookIcon /> <InstagramIcon /></div>
+    <div class="flex gap-5 my-5">
+      <a
+        href="https://www.facebook.com/baltijosveterinarijosklinika/"
+        target="_blank"><FacebookIcon /></a
+      >
+      <a href="https://www.instagram.com/baltijosveterinarija/" target="_blank"
+        ><InstagramIcon /></a
+      >
+    </div>
     <div class="mt-5 flex flex-col gap-2 items-center text-xs font-light">
+      <div><a href="/privatumo-politika">Privatumo politika</a></div>
       <div>Visos teisės saugomos 2023</div>
       <div>Baltijos veterinarijos klinika</div>
     </div>
