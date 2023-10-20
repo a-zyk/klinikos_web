@@ -1,5 +1,5 @@
 const buildSitemap = (pages) => {
-  const baseUrl = 'https://baltijosveterinarijosklinika.lt/'
+  const baseUrl = 'https://baltijosveterinarijosklinika.lt'
   let xml = '<?xml version="1.0" encoding="UTF-8"?>';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
   Object.keys(pages).forEach((page) => {
