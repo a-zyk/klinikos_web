@@ -1,10 +1,11 @@
 const buildSitemap = (pages) => {
+  const baseUrl = 'https://baltijosveterinarijosklinika.lt/'
   let xml = '<?xml version="1.0" encoding="UTF-8"?>';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
   Object.keys(pages).forEach((page) => {
     const priority = pages[page];
     xml += `<url>
-            <loc>${page}</loc>
+            <loc>${baseUrl}/${page}</loc>
             <priority>${priority}</priority>
             <lastmod>${new Date().toISOString().split("T")[0]}</lastmod>
             <changefreq>daily</changefreq>
@@ -29,15 +30,15 @@ export async function GET() {
 
   const articles = await getArticles();
   articles.data.forEach((article) => {
-    articleConfig[`/straipsniai/${article.slug}`] = defaultArticlePriority;
+    articleConfig[`straipsniai/${article.slug}`] = defaultArticlePriority;
   });
 
   const pageConfig = {
-    ["/"]: 1,
-    ["/komanda"]: 0.5,
-    ["/kontaktai"]: 0.5,
-    ["/paslaugos"]: 0.5,
-    ["/straipsniai"]: 0.5,
+    [""]: 1,
+    ["komanda"]: 0.5,
+    ["kontaktai"]: 0.5,
+    ["paslaugos"]: 0.5,
+    ["straipsniai"]: 0.5,
     ...articleConfig,
   };
   const xml = buildSitemap(pageConfig);
