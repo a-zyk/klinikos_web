@@ -1,4 +1,4 @@
-import { redirect } from "@sveltejs/kit";
+import { redirect, error } from "@sveltejs/kit";
 
 const REDIRECTS = {
   ["veterinarijos-klinikos-paslaugos.html"]: "/paslaugos",
@@ -28,5 +28,9 @@ export function load({ params: { old_path } }) {
 
   if (path) {
     throw redirect(301, path);
+  } else {
+    throw error(404, {
+			message: 'Nerastas puslapis'
+		})
   }
 }

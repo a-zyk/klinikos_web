@@ -18,10 +18,10 @@
     <img
       class="rounded-t-lg"
       src="https://klinika.fleetkick.com/assets/{image}?width=450&height=470"
-      alt="cat"
+      alt="article"
     />
   </a>
-  <div class="p-5 min-h-[300px]  flex flex-col">
+  <div class="p-5 min-h-[300px] flex flex-col">
     <a href="/">
       <h5 class="mb-5 text-2xl font-bold tracking-tight">
         {title}
@@ -30,13 +30,14 @@
     <p class="mb-7 font-normal">
       {description}
     </p>
-    <div class="flex-grow"/>
+    <div class="flex-grow" />
     <WhiteButton href="/straipsniai/{slug}">
       <div
         on:click={() => trackArticle(slug)}
         class="flex gap-2 justify-center items-center"
       >
-        Skaitykite plačiau
+        <div class="md:hidden">Plačiau</div>
+        <div class="hidden md:flex">Skaitykite plačiau</div>
         <Arrow />
       </div>
     </WhiteButton>
