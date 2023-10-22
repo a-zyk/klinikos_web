@@ -19,11 +19,11 @@
       </div>
       <a
         href="/komanda"
-        class=" max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 cursor-pointer"
+        class="text-primary_blue max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 "
       >
         <a
           href="/komanda"
-          class="font-base text-sm md:font-md text-primary_blue"
+          class="cursor-pointer font-base text-sm md:font-md "
         >
           Plačiau apie komandą
         </a>

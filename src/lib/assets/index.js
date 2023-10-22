@@ -10,6 +10,7 @@ import Arrow from "./Arrow.svelte"
 import ArrowWhite from "./ArrowWhite.svelte"
 import LtFlag from "./LtFlag.svelte"
 import EnFlag from "./EnFlag.svelte"
+import Phone from "./Phone.svelte"
 
 export {
     Stethoscope,
@@ -23,5 +24,6 @@ export {
     Arrow,
     ArrowWhite,
     LtFlag,
-    EnFlag
+    EnFlag,
+    Phone
 }

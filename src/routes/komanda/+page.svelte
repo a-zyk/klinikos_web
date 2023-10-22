@@ -14,7 +14,8 @@
           Komanda
         </h1>
         <div class="text-center">
-          Susipažinkite su Baltijos veterinarijos klinikoje dirbančiais specialistais
+          Susipažinkite su Baltijos veterinarijos klinikoje dirbančiais
+          specialistais
         </div>
       </div>
       <div class="w-full flex flex-col gap-10 mt-10">
@@ -34,4 +35,9 @@
   </LayoutContainer>
 </div>
 
-<Seo title="Komanda | Baltijos veterinarijos klinika" description="Teikiame platų spektrą paslaugų" url={`/komanda`} keywords="veterinarijos gydytojas, veterinarijos klinika, uzubaliai, avizieniai"/>
+<Seo
+  title="Komanda | Baltijos veterinarijos klinika"
+  description="Teikiame platų spektrą paslaugų"
+  url={`/komanda`}
+  keywords="veterinarijos gydytojas"
+/>

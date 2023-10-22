@@ -131,8 +131,8 @@
   </LayoutContainer>
 </div>
 <Seo
-  title="Komanda | Baltijos veterinarijos klinika"
-  description="Teikiame platų spektrą paslaugų"
-  url={`/komanda`}
-  keywords="veterinarijos gydytojas, veterinarijos klinika, uzubaliai, avizieniai"
+  title="Privatumo politika | Baltijos veterinarijos klinika"
+  description="Baltijos veterinarijos klinikos privatumo politika"
+  url={`/privatumo-politika`}
+  keywords="privatumo politika"
 />

@@ -9,7 +9,10 @@
   <title>{title}</title>
   <meta name="description" content={description} />
   <meta charset="UTF-8" />
-  <meta name="keywords" content={keywords} />
+  <meta
+    name="keywords"
+    content={`veterinarijos klinika, vet klinika, gyvūnų gydymas, užubaliai, avižieniai, tarandė, vet gydykla, veterinarija, ${keywords}`}
+  />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="language" content="LT" />
   <meta

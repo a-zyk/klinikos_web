@@ -77,10 +77,10 @@
       </div>
       <a
         href="/paslaugos"
-        class="max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2 cursor-pointer"
+        class=" text-primary_blue max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2"
       >
-        <div class="font-base text-sm md:font-md text-primary_blue">
-          Daugiau apie atliekamas procedūras
+        <div class="cursor-pointer font-base text-sm md:font-md  min-w-fit">
+          Daugiau apie procedūras
         </div>
         <Arrow />
       </a>

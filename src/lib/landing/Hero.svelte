@@ -62,7 +62,7 @@
               </HeroItemWrapper>
             </div>
           </div>
-          <div class="self-center md:self-auto lg:self-center my-6">
+          <div class="hidden md:flex self-center md:self-auto lg:self-center my-6">
             <Button href="/kontaktai">Registracija vizitui</Button>
           </div>
         </div>

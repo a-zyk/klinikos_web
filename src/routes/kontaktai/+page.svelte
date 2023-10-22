@@ -29,7 +29,7 @@
             alt="map"
           />
         </div>
-        <div class="flex flex-col justify-center gap-8 text-xl lg:text-3xl">
+        <div class="flex flex-col items-center justify-center gap-8 text-xl lg:text-3xl">
           <div class="font-semibold">+370 3489593</div>
           <div>baltijosklinika@gmail.com</div>
           <div class="flex flex-col">
@@ -57,5 +57,5 @@
   title="Kontaktai | Baltijos veterinarijos klinika"
   description="Baltijos klinika jusu augintiniu draugai"
   url={`/kontaktai`}
-  keywords="baltijos veterinarijos klinika, uzubaliai, avizieniai, veterinarijos klinika"
+  keywords="telefono numeris baltijos veterinarijos klinika"
 />
