@@ -11,7 +11,7 @@
 {#if isNavShown}
   <div
     transition:fade
-    class="fixed top-0 left-0 z-40 duration-100 bg-white h-full w-full flex flex-col items-end px-8 py-5"
+    class="fixed top-0 left-0 z-50 duration-100 bg-white h-full w-full flex flex-col items-end px-8 py-5"
   >
     <button class="cursor-pointer pt-4" on:click={() => (isNavShown = false)}
       ><Close /></button
