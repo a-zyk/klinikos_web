@@ -19,7 +19,7 @@
     <ul class="flex flex-col items-end py-16 leading-[86px] text-xl font-light">
       {#each data as item}
         <li  >
-          <a on:click={() => (isNavShown = false)} href={item.link}
+          <a  on:click={() => (isNavShown = false)} href={item.link}
             >{item.name}</a
           >
         </li>
