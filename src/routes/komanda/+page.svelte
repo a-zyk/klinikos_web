@@ -2,8 +2,8 @@
   import LayoutContainer from "$lib/layout/LayoutContainer.svelte";
   import ContentContainer from "$lib/layout/ContentContainer.svelte";
   import TeamCard from "./TeamCard.svelte";
-  import data from "./data";
   import Seo from "$lib/assets/Seo.svelte";
+  export let data;
 </script>
 
 <div class="bg-bg_lightest w-full">
@@ -19,13 +19,12 @@
         </div>
       </div>
       <div class="w-full flex flex-col gap-10 mt-10">
-        {#each data as doctor}
+        {#each data.data as doctor}
           <TeamCard
-            name={doctor.name}
+            name={doctor.fullName}
             profession={doctor.profession}
             description={doctor.description}
-            icons={doctor.icons}
-            specialisation={doctor.specialisation}
+            specialization={doctor.specialization}
             languages={doctor.languages}
             photo={doctor.photo}
           />
@@ -37,7 +36,7 @@
 
 <Seo
   title="Komanda | Baltijos veterinarijos klinika"
-  description="Teikiame platų spektrą paslaugų"
+  description="Teikiame platų spektrą veterinarinių paslaugų. Jūsų gyvūnų sveikatai."
   url={`/komanda`}
   keywords="veterinarijos gydytojas"
 />

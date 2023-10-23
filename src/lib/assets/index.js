@@ -11,7 +11,8 @@ import ArrowWhite from "./ArrowWhite.svelte"
 import LtFlag from "./LtFlag.svelte"
 import EnFlag from "./EnFlag.svelte"
 import Phone from "./Phone.svelte"
-
+import PlFlag from "./PlFlag.svelte"
+import RuFlag from "./RuFlag.svelte"
 export {
     Stethoscope,
     Tooth,
@@ -25,5 +26,7 @@ export {
     ArrowWhite,
     LtFlag,
     EnFlag,
-    Phone
+    Phone,
+    RuFlag,
+    PlFlag
 }
