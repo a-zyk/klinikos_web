@@ -31,7 +31,7 @@
           >
             <HeroItemWrapper>
               <Phone classes="h-10 w-10" />
-              <div class="font-semibold">+370 3489593</div>
+              <div class="font-semibold">+370 63633343</div>
             </HeroItemWrapper>
             <div class="flex flex-col">
               <HeroItemWrapper>
@@ -43,7 +43,7 @@
                   </div>
                   <div class="flex gap-2 justify-between">
                     <div>VI</div>
-                    <div>10 - 18 val.</div>
+                    <div>10 - 16 val.</div>
                   </div>
                   <div class="flex gap-2 justify-between">
                     <div>VII</div>

@@ -30,7 +30,7 @@
           />
         </div>
         <div class="flex flex-col items-center justify-center gap-8 text-xl lg:text-3xl">
-          <div class="font-semibold">+370 3489593</div>
+          <div class="font-semibold">+370 63633343</div>
           <div>baltijosklinika@gmail.com</div>
           <div class="flex flex-col">
             <div class="flex gap-2 wrap-0 ">
@@ -39,7 +39,7 @@
             </div>
             <div class="flex gap-2 ">
               <div>VI</div>
-              <div>10 - 18 val.</div>
+              <div>10 - 16 val.</div>
             </div>
             <div class="flex gap-2">
               <div>VII</div>

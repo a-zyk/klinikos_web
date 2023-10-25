@@ -15,13 +15,13 @@
     </div>
     <FooterItemWrapper>
       <div class="font-bold">Kontaktai</div>
-      <div>+370 604845793</div>
+      <div>+370 63633343</div>
       <div>baltijosveterinarijosklinika@gmail.com</div>
     </FooterItemWrapper>
     <FooterItemWrapper>
       <div class="font-bold">Darbo laikas</div>
       <div>I - V 10 - 20 val.</div>
-      <div>VI 10 - 18 val.</div>
+      <div>VI 10 - 16 val.</div>
       <div>VII nedirbame</div>
     </FooterItemWrapper>
     <FooterItemWrapper>
