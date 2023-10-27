@@ -6,6 +6,10 @@
   import HeroItemWrapper from "./HeroItemWrapper.svelte";
   import Phone from "../assets/Phone.svelte";
   import Button from "../assets/Button.svelte";
+  import mixpanel from "mixpanel-browser";
+  const trackRegButton = () => {
+  mixpanel.track("Reg button clicked");
+}
 </script>
 
 <div class="bg-bg_light w-full">
@@ -61,9 +65,9 @@
                 </div>
               </HeroItemWrapper>
             </div>
-          </div>
-          <div class="hidden md:flex self-center md:self-auto lg:self-center my-6">
-            <Button href="/kontaktai">Registracija vizitui</Button>
+          </div> 
+          <div  on:click={() => trackRegButton()}  class="hidden md:flex self-center md:self-auto lg:self-center my-6">
+            <Button  href="/kontaktai">Registracija vizitui</Button>
           </div>
         </div>
         <div class="flex-grow" />
