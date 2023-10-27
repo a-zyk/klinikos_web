@@ -31,9 +31,9 @@
       icon: Tooth,
     },
     {
-      title: "Labaratoriniai tyrimai",
-      id: "Labaratoriniai-tyrimai",
-      description: "Atliekame platų spektrą labaratorinių tyrimų",
+      title: "Laboratoriniai tyrimai",
+      id: "Laboratoriniai-tyrimai",
+      description: "Atliekame platų spektrą laboratorinių tyrimų",
       icon: Virus,
     },
     {
