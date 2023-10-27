@@ -14,9 +14,9 @@
     <ContentContainer>
       <div class="flex flex-col items-center gap-10">
         <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold font-jakarta">
-          Paslaugos
+          Paslaugos. Puslapis ruošiamas
         </h1>
-        <div class="text-center">
+        <!-- <div class="text-center">
           Pagrindinės klinikoje teikiamos paslaugos ir procedūros. Dėl kitų
           paslaugų ir procedūrų teirautis klinikoje ar telefonu.
         </div>
@@ -29,7 +29,8 @@
           procedures={proceduresList}
           />
         {/each}
-        </div>
+        </div> -->
+       
       </div>
     </ContentContainer>
   </LayoutContainer>

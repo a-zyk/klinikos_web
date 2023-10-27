@@ -30,8 +30,7 @@ const cookieConfig = {
    * The 'description' field can include html such as links
    **/
   heading: "Privatumo politika",
-  description:
-    'Baltijos veterinarijos klinikų internetinėje svetainėje mes taikome slapukus tam, kad užtikrintume jums aukštos kokybės paslaugą, atsimintume jūsų pasirinkimus ir pakartotinius vizitus. Kai paspausite "Sutinku", leisite naudoti VISUS slapukus. Tačiau jūs turite galimybę valdyti savo sutikimo parinktis spustelėję "Redaguoti" mygtuką. Daugiau informacijos apie slapukų ir privatumo politiką rasite:',
+  description: `Baltijos veterinarijos klinikų internetinėje svetainėje mes taikome slapukus tam, kad užtikrintume jums aukštos kokybės paslaugą, atsimintume jūsų pasirinkimus ir pakartotinius vizitus. Kai paspausite "Sutinku", leisite naudoti VISUS slapukus. Tačiau jūs turite galimybę valdyti savo sutikimo parinktis spustelėję "Redaguoti" mygtuką. Daugiau informacijos apie slapukų ir privatumo politiką rasite <a href="/privatumo-politika">čia</a>`,
 
   /**
    * All the button labels and aria-label content.

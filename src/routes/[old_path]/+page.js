@@ -1,7 +1,7 @@
 import { redirect, error } from "@sveltejs/kit";
 
 const REDIRECTS = {
-  ["veterinarijos-klinikos-paslaugos.html"]: "/paslaugos",
+  ["veterinarijos-klinikos-paslaugos.html"]: "/",
   ["vakcinacija.html"]: "/straipsniai",
   ["odos-pleiskanojimas.html"]: "/straipsniai",
   ["kastracija-ir-sterilizacija.html"]: "/straipsniai",
