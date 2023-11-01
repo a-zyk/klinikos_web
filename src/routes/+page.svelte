@@ -17,6 +17,7 @@
 </script>
 
 <div class="relative m-0">
+  <div class="bg-primary_blue text-center text-white font-bold">Klinika lapkričio 1 ir 2 dieną NEDIRBS</div>
   <Call on:click={() => trackCall()} />
   <Hero />
   <Services />
