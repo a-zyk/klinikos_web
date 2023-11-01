@@ -1,10 +1,10 @@
 import { error } from "@sveltejs/kit";
 
 export async function load({ params }) {
-  let res = await fetch(
+  const response = await fetch(
     `https://klinika.fleetkick.com/items/articles/${params.slug}`
   );
-  const data = await res.json();
+  const data = await response.json();
   if (data.data) {
     return data.data;
   }
