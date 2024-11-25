@@ -35,7 +35,6 @@ export async function GET() {
 
   const pageConfig = {
     [""]: 1,
-    ["komanda"]: 0.5,
     ["kontaktai"]: 0.5,
     ["paslaugos"]: 0.5,
     ["straipsniai"]: 0.5,
