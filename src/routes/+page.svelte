@@ -20,7 +20,7 @@
   <Call on:click={() => trackCall()} />
   <Hero />
   <Services />
-  <Team />
+  <!-- <Team /> -->
   <Articles />
 </div>
 <Seo
