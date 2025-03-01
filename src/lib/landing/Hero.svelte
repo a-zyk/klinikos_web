@@ -43,11 +43,11 @@
                 <div class="flex flex-col">
                   <div class="flex gap-2 justify-between">
                     <div>I - V</div>
-                    <div>10 - 20 val.</div>
+                    <div>10 - 19 val.</div>
                   </div>
                   <div class="flex gap-2 justify-between">
                     <div>VI</div>
-                    <div>10 - 16 val.</div>
+                    <div>10 - 15 val.</div>
                   </div>
                   <div class="flex gap-2 justify-between">
                     <div>VII</div>

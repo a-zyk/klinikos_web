@@ -20,8 +20,8 @@
     </FooterItemWrapper>
     <FooterItemWrapper>
       <div class="font-bold">Darbo laikas</div>
-      <div>I - V 10 - 20 val.</div>
-      <div>VI 10 - 16 val.</div>
+      <div>I - V 10 - 19 val.</div>
+      <div>VI 10 - 15 val.</div>
       <div>VII nedirbame</div>
     </FooterItemWrapper>
     <FooterItemWrapper>

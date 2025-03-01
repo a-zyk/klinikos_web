@@ -35,11 +35,11 @@
           <div class="flex flex-col">
             <div class="flex gap-2 wrap-0 ">
               <div class="whitespace-nowrap">I - V</div>
-              <div class="whitespace-nowrap">10 - 20 val.</div>
+              <div class="whitespace-nowrap">10 - 19 val.</div>
             </div>
             <div class="flex gap-2 ">
               <div>VI</div>
-              <div>10 - 16 val.</div>
+              <div>10 - 15 val.</div>
             </div>
             <div class="flex gap-2">
               <div>VII</div>
