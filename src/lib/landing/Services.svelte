@@ -75,15 +75,15 @@
           {/each}
         </div>
       </div>
-      <a
+      <!-- <a
         href="/paslaugos"
         class=" text-primary_blue max-w-[1100px] flex items-center justify-start md:justify-end mt-8 md:gap-2"
-      >
+      > -->
         <!-- <div class="cursor-pointer font-base text-sm md:font-md  min-w-fit">
           Daugiau apie procedūras
         </div> -->
         <!-- <Arrow /> -->
-      </a>
+      <!-- </a> -->
     </ContentContainer>
   </LayoutContainer>
 </div>
