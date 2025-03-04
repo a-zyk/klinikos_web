@@ -82,7 +82,7 @@
         <!-- <div class="cursor-pointer font-base text-sm md:font-md  min-w-fit">
           Daugiau apie procedūras
         </div> -->
-        <Arrow />
+        <!-- <Arrow /> -->
       </a>
     </ContentContainer>
   </LayoutContainer>
