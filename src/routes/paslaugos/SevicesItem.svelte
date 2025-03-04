@@ -25,7 +25,8 @@
 </script>
 
 <div class="flex flex-col p-6 md:p-8 w-full bg-white rounded-lg">
-  <div class="flex flex-col gap-2 my-4">
+  <div class="text-lg font-bold">Puslapis ruošiamas</div>
+  <!-- <div class="flex flex-col gap-2 my-4">
     <div class="flex pb-3">
       <svelte:component this={procedureIcon} />
       <h3 class="text-lg md:text-xl font-bold ml-3">{procedures.title}</h3>
@@ -58,5 +59,5 @@
       Pateiktas nepilnas procedūrų sąrašas. Pilno paslaugų ir atliekamų
       procedūrų sąrašo bei kainų teiraukitės telefonu ar atvykę į kliniką.
     </div>
-  </div>
+  </div> -->
 </div>
